@@ -24,11 +24,13 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 
 3. Current results
 
-|#images   |RGB|Gray|
+|Nets   |RGB|Gray|
 |--        |-- |--  |
-|10,000      |77.171875%|57.78125%|
-|200,000     |77.22%   |59.44%|
+|MobileNet     |77.22%   |59.44%|
+|AlexNet     |64.06%   |33.56%|
+|VGG16  |78.81%|60.34%|
+|ResNet19|73.58%|55.68%|
 
 4. To do
 
-More images needed to be test
+More pre_trained nets needed to be test
