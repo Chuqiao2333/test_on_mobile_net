@@ -24,12 +24,13 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 
 3. Current results
 
-|Nets   |RGB|Gray|
+|Nets   |RGB|Gray|loss|
 |--        |-- |--  |
-|MobileNet     |77.22%   |59.44%|
-|AlexNet     |64.06%   |33.56%|
-|VGG16  |78.81%|60.34%|
-|ResNet19|73.58%|55.68%|
+|MobileNet     |77.22%   |59.44%|18%|
+|AlexNet     |64.06%   |33.56%|31%|
+|VGG16  |78.81%|60.34%|18%|
+|ResNet19|73.58%|55.68%|18%|
+|GoogleNet|71.09%|58.77|13%|
 
 4. To do
 
