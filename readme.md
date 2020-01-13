@@ -32,6 +32,6 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 |ResNet19|73.58%|55.68%|18%|
 |GoogleNet|71.09%|58.77|13%|
 
-4. To do
+4. Fine-tune the classifier layer on gray scale images
 
 More pre_trained nets needed to be test
