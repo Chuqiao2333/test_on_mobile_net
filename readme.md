@@ -24,14 +24,15 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 
 3. Current results
 
-|Nets   |State_of_art|RGB|Gray|loss|
-|--      |--  |-- |--  |--|
-|MobileNet |74.7%    |77.22%   |59.44%|18%|
-|AlexNet|63.3%     |64.06%   |33.56%|31%|
-|VGG16  | 74.4%|78.81%|60.34%|18%|
-|ResNet19|72.19%|73.58%|55.68%|18%|
-|GoogleNet|69.8%|71.09%|58.77%|13%|
+|Nets   |State_of_art|Sampled RGB images |Gray|Fine-tune Gray|loss|
+|--      |--  |-- |--  |--|--|
+|MobileNet |74.7%    |77.22%   |59.44%| |18%|
+|AlexNet|63.3%     |64.06%   |33.56%| |31%|
+|VGG16  | 74.4%|78.81%|60.34%|42%|18%|
+|ResNet19|72.19%|73.58%|55.68%| |18%|
+|GoogleNet|69.8%|71.09%|58.77%| |13%|
 
-4. Fine-tune the classifier layer on gray scale images
-
-More pre_trained nets needed to be test
+    3.1 Pre-trained model
+    The pretrained models are trained by RGN images so the smapled images accuracy is closed to state-of-art, while The accuracy on gray scale images are lower. 
+    3.2 Fine-tune the claasifier
+    To improve the accuracy of gray scale images, we use transfer learning and fine-tune the fully connective layer, while the results seems bad. The model is easily to overfit.
