@@ -24,9 +24,9 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 
 3. Current results
 
-|   |RGB|Gray|
-|-- |-- |--  |
-|accuracy|77.171875|57.78125|
+|#images   |RGB|Gray|
+|--        |-- |--  |
+|1000      |77.171875%|57.78125%|
 
 4. To do
 
