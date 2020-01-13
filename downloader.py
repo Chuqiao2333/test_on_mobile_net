@@ -11,6 +11,15 @@ from multiprocessing import Pool, Process, Value, Lock
 
 from requests.exceptions import ConnectionError, ReadTimeout, TooManyRedirects, MissingSchema, InvalidURL
 
+class_info_json_filename = 'imagenet_class_index.json'
+class_info_json_filepath = os.path.join('./', class_info_json_filename)
+
+class_info_dict = dict()
+
+with open(class_info_json_filepath) as class_info_json_f:
+    class_info_dict = json.load(class_info_json_f)
+
+
 
 classes = []
 for i in range(1000):
