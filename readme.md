@@ -27,6 +27,7 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 |#images   |RGB|Gray|
 |--        |-- |--  |
 |1000      |77.171875%|57.78125%|
+|20,000     |77.22%   |59.44%|
 
 4. To do
 
