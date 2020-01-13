@@ -6,14 +6,14 @@ The purpose is compared the accuracy on RGB and Gray Scale images
 
 1. 
 
-The following command will download 10 images from each of selected class, the 1000 classes list is already in the code :
+The following command will download 200 images from each of selected class, the 1000 classes list is already in the code :
 
 ```
 
 python ./downloader.py 
     -data_root /test_images \
     -use_class_list True \
-    -images_per_class 10
+    -images_per_class 200
 ```
 
 2. 
