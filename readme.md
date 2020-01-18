@@ -30,7 +30,7 @@ Run this [notebook](https://github.com/Chuqiao2333/test_on_mobile_net/blob/maste
 
 |Nets       |State_of_art   |Sampled RGB images |Gray   |Fine-tune Gray |loss|
 |--         |--             |--                 |--     |  --           |--|
-|MobileNet  |74.7%          |77.22%             |59.44% |68.82%         |18%|
+|MobileNet  |74.7%          |77.22%             |59.44% |69.17%         |18%|
 |AlexNet    |63.3%          |64.06%             |33.56% |               |31%|
 |VGG16      |74.4%          |78.81%             |60.34% |  %            |18%|
 |ResNet19   |72.19%         |73.58%             |55.68% |               |18%|
